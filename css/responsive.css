@@ -1,0 +1,38 @@
+/* Soluzione qui */
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        width: 95%;
+    }
+
+    #topbar {
+        justify-content: left;
+    }
+
+    .recipe-origin {
+        display: inline-block;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes li {
+        width: 30%;
+    }
+
+    .social-networks .btn {
+        padding: 10px 50px;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .clearfix img {
+        float: left;
+        margin: 10px;
+    }
+}
