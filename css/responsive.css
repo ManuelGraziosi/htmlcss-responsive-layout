@@ -33,6 +33,33 @@
 
     .clearfix img {
         float: left;
-        margin: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .container {
+        width: 80%;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-card .recipe-video {
+        width: 70%;
+    }
+
+    .recipe-card .recipe-info {
+        width: 30%;
+    }
+
+    .quick-notes ul {
+        display: block;
+    }
+
+    .quick-notes li {
+        width: 100%;
     }
 }
