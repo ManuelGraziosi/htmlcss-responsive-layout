@@ -3,7 +3,7 @@
 @media screen and (min-width: 768px) {
 
     .container {
-        width: 95%;
+        margin: 40px
     }
 
     #topbar {
@@ -12,6 +12,10 @@
 
     .recipe-origin {
         display: inline-block;
+    }
+
+    .recipe-name {
+        font-size: 2rem;
     }
 
     .quick-notes ul {
