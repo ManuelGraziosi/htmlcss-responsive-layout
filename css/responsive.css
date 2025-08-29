@@ -43,8 +43,8 @@
 
 @media screen and (min-width: 992px) {
 
-    .container {
-        width: 80%;
+    .recipe-name {
+        font-size: 2.5rem;
     }
 
     .recipe-card {
@@ -65,5 +65,15 @@
 
     .quick-notes li {
         width: 100%;
+    }
+
+    .social-networks .label {
+        display: inline;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
     }
 }
