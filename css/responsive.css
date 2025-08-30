@@ -1,28 +1,29 @@
 /* Soluzione qui */
 
 @media screen and (min-width: 576px) {
-    .clearfix img {
+    .presentation img {
         float: left;
         margin-right: 10px;
     }
 
     .social-networks .btn {
-        padding: 10px 40px;
+        flex-grow: 1;
     }
+
 }
 
 @media screen and (min-width: 768px) {
 
-    .container {
-        margin: 40px
+    #topbar {
+        justify-content: flex-start;
     }
 
-    #topbar {
-        justify-content: left;
+    main {
+        padding: 40px
     }
 
     .recipe-origin {
-        display: inline-block;
+        display: inline;
     }
 
     .recipe-name {
@@ -32,18 +33,15 @@
     .quick-notes ul {
         display: flex;
         flex-wrap: wrap;
+
     }
 
     .quick-notes li {
-        width: 30%;
+        width: calc(100% / 3);
     }
 
     .ads {
         display: block;
-    }
-
-    .social-networks .btn {
-        padding: 10px 50px;
     }
 }
 
@@ -81,5 +79,9 @@
         display: flex;
         justify-content: space-between;
         text-align: left;
+    }
+
+    .recipe-video {
+        height: 35vw;
     }
 }
